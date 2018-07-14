@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
+    </head>
+<body id="contact-page">
+    <div class="container">
+         <nav class="menu">
+            <a href="/">Home</a> &nbsp; &nbsp;
+            <a href="/about.html">About</a> &nbsp; &nbsp;
+            <a href="/contact.html">Contact</a>
+        </nav>
+        <header class="header">
+            <a class="link-title" href="/">Vinny's Web Development Website</a>
+        </header>
+        <aside>
+        <h1>Sidebar</h1>
+        </aside>
+        <article class="main">
+            <div id="form">
+                <form action="process.php">
+                    <h1 class="page-heading">Contact Me</h1>
+                    <p>
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                    </p>
+                    <p>
+                    <label for="email">Email</label>
+                    <input type="text" name="email">
+                    </p>
+                    <p>
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject">
+                    </p>
+                    <p>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </p>
+                    <input id="submit" type="submit" name="Submit" value="Send Message">
+                </form>
+            </div>
+        </article>
+
+        <footer>
+        &copy; 2018 Vinny's Web Development Site <span class="separator"> | </span>Designed by <a href="https://www.vinnypezzimenti.com" target="_blank">Vinny Pezzimenti</a>
+        </footer>
+    </div>
+    
+</body>
+</html>
