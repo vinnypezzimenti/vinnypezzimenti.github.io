@@ -1,0 +1,147 @@
+body {
+    background: #F7F7F7;
+    margin: 0;
+}
+
+.header {
+    padding: 19px;
+    text-align: justify;
+}
+.link-title {
+    text-decoration: none;
+    font-size: 33px;
+    font-family: "Trebuchet MS";
+    color:darkblue;
+}
+.container {
+    width: 780px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0px 2px 3px 1px;
+}
+
+.menu {
+    background: #FF5500;
+    padding: 12px;
+    text-align: right;
+}
+
+.menu a {
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow", "Myriad Pro";
+}
+
+.menu a:hover {
+    color:darkblue;
+}
+
+#home-image {
+    float:left;
+    padding: 0 18px 12px 0;
+    width: 175px;
+}
+
+aside {
+    float:left;
+    width:120px;
+    padding:30px 0 0 40px;
+}
+
+aside ul {
+    list-style-type: none;
+    text-indent: none;
+}
+
+h1 {
+    margin:20px;
+    color:#FF5500;
+    font-size: 28px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: normal;
+}
+
+h2 {
+    color:#FF5500;
+    font-size:15px;
+    margin: 20px 0 5px 0;
+}
+
+.main {
+    margin: 0 0 0 180px;
+    padding: 0 30px 10px 10px;
+    color: black;
+    font-family: "Georgia";
+    font-size:13px;
+    line-height:19px;
+    text-align: justify
+}
+
+.main a {
+    color: #FF5500;
+    text-decoration: none;
+}
+
+.main a:hover {
+    color: black;
+}
+
+footer {
+    padding: 8px 45px 8px 45px;
+    background-color: #FF5500;
+    color: white;
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 11px;
+    clear:both;
+}
+
+footer a {
+    color:darkblue;
+    text-decoration: none;
+}
+
+.separator {
+    font-size:11px;
+}
+
+/**************** About Page Styles ****************/
+#about-page #about-image {
+    float:right;
+    padding: 0 0 12px 25px;
+    width:200px;
+}
+
+#about-page #profile-info {
+    line-height: 6px;
+    padding: 0 0 5px 0;
+}
+
+/**************** Contact Page Styles ****************/
+#contact-page #form {
+    width:500px;
+    margin:0;
+    box-shadow: 0px 2px 3px 1px;
+    padding:4px 20px 15px 20px;
+    border-radius: 4px;
+}
+
+#contact-page #form input {
+    width:500px;
+    border-radius:8px;
+    height:25px;
+}
+
+#contact-page #form #message {
+    width:500px;
+    border-radius:8px;
+}
+
+#contact-page #form #submit {
+    width:300px;
+    height:35px;
+    background-color: #FF5500;
+    color:white;
+}
