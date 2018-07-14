@@ -14,7 +14,7 @@
 	
 	mail($to,$name,$subject,$txt,$headers);
 	
-	header("Location: first-website/contact.html");
+	header("Location: /contact.html");
 	
 
 		
